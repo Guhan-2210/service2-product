@@ -1,0 +1,12 @@
+version: '3'
+services:
+  service2:
+    build: .
+    ports:
+      - "5001:5001"  # Adjust port as needed
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
