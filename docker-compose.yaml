@@ -3,7 +3,7 @@ services:
   service2:
     build: .
     ports:
-      - "5001:5001"  # Adjust port as needed
+      - "3001:3001"  # Adjust port as needed
     networks:
       - my-network
 
